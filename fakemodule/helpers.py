@@ -5,7 +5,7 @@ Helper functions for demonstration.
 
 def add(a, b):
     """
-    Adds to numbers together.
+    Adds two numbers together.
 
     Parameters
     ----------
