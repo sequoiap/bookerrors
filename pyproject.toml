@@ -1,0 +1,24 @@
+[project]
+name = "fakemodule"
+version = "0.1.0"
+description = "There are problems with the sphinx-book-theme."
+readme = "README.md"
+requires-python = ">=3.7"
+
+# This should be your name or the name of the organization who originally
+# authored the project, and a valid email address corresponding to the name
+# listed.
+authors = [
+  {name = "Sequoia Ploeg"},
+]
+
+dependencies = [
+  "jupyter-book~=0.15.1",
+  "sphinx-book-theme~=1.0.1",
+  "sphinx-design~=0.3.0",
+  "numpydoc",
+]
+
+[build-system]
+requires = ["setuptools>=62.0.0", "wheel"]
+build-backend = "setuptools.build_meta"

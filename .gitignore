@@ -1,0 +1,6 @@
+env/
+docs/api/
+docs/_build/
+.vscode/
+*.egg-info/
+*.py[cod]
